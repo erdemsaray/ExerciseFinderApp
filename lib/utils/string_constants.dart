@@ -1,5 +1,5 @@
 class StringConstants {
-  static String appName = "Excercise Finder App";
-  static String homePageTitle = "Home Page";
-  static String myProgramPageTitle = "My Program";
+  static String appName = "Exercise Finder App";
+  static String firstPageTitle = "Home";
+  static String secondPageTitle = "My Program";
 }

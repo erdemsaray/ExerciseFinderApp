@@ -1,16 +1,17 @@
-# exercise_finder_app
+# Exercise Finder App
 
-A new Flutter project.
+This project was developed using Model - View - View Model architecture.
 
-## Getting Started
+Provider was preferred as the state management approach.
 
-This project is a starting point for a Flutter application.
+You can take a look at  <a href="https://github.com/erdemsaray"> my other projects<a> for the missing features of this app, which was developed in one day.
 
-A few resources to get you started if this is your first Flutter project:
+<img src="project-images/1.png" alt="drawing" height=600/>
+<img src="project-images/2.png" alt="drawing" height=600/>
+<img src="project-images/3.png" alt="drawing" height=600/>
+<img src="project-images/4.png" alt="drawing" height=600/>
+<img src="project-images/5.png" alt="drawing" height=600/>
+<img src="project-images/6.png" alt="drawing" height=600/>
+<img src="project-images/7.png" alt="drawing" height=600/>
+<img src="project-images/8.png" alt="drawing" height=600/>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.

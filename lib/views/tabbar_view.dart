@@ -1,7 +1,6 @@
 import 'package:exercise_finder_app/utils/color_constants.dart';
 import 'package:exercise_finder_app/utils/image_constants.dart';
 import 'package:exercise_finder_app/utils/string_constants.dart';
-import 'package:exercise_finder_app/utils/style_constants.dart';
 import 'package:exercise_finder_app/views/home_view.dart';
 import 'package:exercise_finder_app/views/my_program_view.dart';
 import 'package:flutter/material.dart';
@@ -49,13 +48,13 @@ class _TabbarViewState extends State<TabbarView> with TickerProviderStateMixin {
           shape: const CircularNotchedRectangle(),
           child: TabBar(
             indicatorColor: ColorConstants.colorSplash,
-            labelColor: ColorConstants.colorLabel,
+            labelColor: ColorConstants.colorNavigationText,
             controller: _tabController,
-            tabs: const [
+            tabs: [
               Tab(
-                text: 'Home',
+                text: StringConstants.firstPageTitle,
               ),
-              Tab(text: 'My Program')
+              Tab(text: StringConstants.secondPageTitle)
             ],
           ),
         ),
